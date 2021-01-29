@@ -1,0 +1,11 @@
+<VirtualHost *:81>
+	DocumentRoot "D:\www\chienquoc.com"
+	ServerName chienquoc.com
+	<Directory "D:\www\chienquoc.com">
+	Options Indexes FollowSymLinks Includes ExecCGI
+	AllowOverride All
+	Order allow,deny
+	Allow from all
+	Require all granted
+	</Directory>
+	</VirtualHost>
